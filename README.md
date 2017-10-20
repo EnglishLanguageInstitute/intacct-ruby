@@ -156,7 +156,7 @@ IntacctRuby::Request.new(REQUEST_OPTS)
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'intacct_ruby'
+gem 'intacct_ruby_team'
 ```
 
 And then execute:
@@ -165,7 +165,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install intacct_ruby
+    $ gem install intacct_ruby_team
 
 ## Contributing
 

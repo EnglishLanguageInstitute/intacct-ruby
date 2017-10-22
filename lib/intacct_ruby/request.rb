@@ -43,9 +43,9 @@ module IntacctRuby
         uniqueid: ENV["INTACCT_UNIQUE_ID"],
         dtdversion: ENV["INTACCT_DTD_VERSION"],
         transaction: ENV["INTACCT_TRANSACTION"]
-      }
+      }.reject{|key, value| value.nil? || value == ""}
       
-      @opts = DEFAULTS.dup.merge.merge(env_params).merge(request_params)
+      @opts = DEFAULTS.dup.merge(env_params).merge(request_params)
       
       # If a hash is provided + popped, the remaining attrs are functions
       @functions = functions

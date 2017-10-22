@@ -33,6 +33,20 @@ module IntacctRuby
       # not, an error will be thrown on #send
       @opts = DEFAULTS.dup.merge request_params
 
+            
+      env_params = {
+        senderid: ENV["INTACCT_SENDER_ID"],
+        sender_password: ENV["INTACCT_SENDER_PASSWORD"],
+        userid: ENV["INTACCT_USER_ID"],
+        user_password: ENV["INTACCT_USER_PASSWORD"],
+        companyid: ENV["INTACCT_COMPANY_ID"],
+        uniqueid: ENV["INTACCT_UNIQUE_ID"],
+        dtdversion: ENV["INTACCT_DTD_VERSION"],
+        transaction: ENV["INTACCT_TRANSACTION"]
+      }
+      
+      @opts = DEFAULTS.dup.merge.merge(env_params).merge(request_params)
+      
       # If a hash is provided + popped, the remaining attrs are functions
       @functions = functions
     end

@@ -10,8 +10,10 @@ module IntacctRuby
 
       def to_xml
         super do |xml|
-          xml.create_account do
-            xml << account_params
+          xml.create do
+            xml.glaccount do
+              xml << account_params
+            end
           end
         end
       end

@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'functions/custom_fields_examples'
 
 def project_attributes(overrides = {})
   {
@@ -32,19 +33,6 @@ shared_examples 'a project function' do |function_xml|
     end
   end
 
-  let(:custom_fields_path) { "#{base_path}/customfields/customfield" }
-
-  it 'contains expected customfield params' do
-    function_xml.xpath(custom_fields_path).each do |field|
-      field_key = field.xpath('customfieldname').text
-      field_value = field.xpath('customfieldvalue').text
-
-      expected_value = project_attributes[:customfields][field_key.to_sym]
-
-      expect(field_value)
-        .to eq(expected_value),
-            "Value mismatch on #{field_key}. Expected " \
-            "\"#{expected_value}\", got \"#{field_value}\""
-    end
-  end
+  it_behaves_like 'a custom fields function', function_xml, project_attributes
+  
 end

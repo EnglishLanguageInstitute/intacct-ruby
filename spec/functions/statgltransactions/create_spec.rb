@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/create_statgltransaction'
+require 'intacct_ruby/functions/statgltransactions/create'
 
 require 'functions/function_spec_helper'
 require 'functions/function_examples'

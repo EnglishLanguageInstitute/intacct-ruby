@@ -1,6 +1,6 @@
 require 'intacct_ruby/functions/items/create'
 
-require 'functions/item_function_examples'
+require 'functions/items/function_examples'
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
 require 'functions/creation_function_examples'

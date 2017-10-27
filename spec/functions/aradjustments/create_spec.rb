@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/create_aradjustment'
+require 'intacct_ruby/functions/aradjustments/create'
 require 'intacct_ruby/helpers/date_helper'
 
 require 'functions/function_spec_helper'

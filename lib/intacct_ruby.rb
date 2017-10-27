@@ -18,10 +18,10 @@ require 'intacct_ruby/functions/base_function'
 #require 'intacct_ruby/functions/create_location'
 #require 'intacct_ruby/functions/update_location'
 
+
+#require 'intacct_ruby/functions/create_aradjustment'
+
 require 'intacct_ruby/functions/items'
-
-require 'intacct_ruby/functions/create_aradjustment'
-
 require 'intacct_ruby/functions/create_gltransaction'
 require 'intacct_ruby/functions/create_statgltransaction'
 
@@ -30,3 +30,4 @@ require 'intacct_ruby/functions/employees'
 require 'intacct_ruby/functions/customers'
 require 'intacct_ruby/functions/locations'
 require 'intacct_ruby/functions/projects'
+require 'intacct_ruby/functions/aradjustments'

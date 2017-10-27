@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/employee_base_function'
+require 'intacct_ruby/functions/employees/base_function'
 
 module IntacctRuby
   module Functions

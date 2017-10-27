@@ -1,6 +1,6 @@
-require 'intacct_ruby/functions/update_employee'
+require 'intacct_ruby/functions/employees/update'
 
-require 'functions/employee_function_examples'
+require 'functions/employees/function_examples'
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
 require 'functions/update_function_examples'

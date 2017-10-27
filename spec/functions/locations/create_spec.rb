@@ -1,6 +1,6 @@
-require 'intacct_ruby/functions/create_location'
+require 'intacct_ruby/functions/locations/create'
 
-require 'functions/location_function_examples'
+require 'functions/locations/function_examples'
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
 require 'functions/creation_function_examples'

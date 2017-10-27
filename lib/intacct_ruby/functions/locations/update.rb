@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/location_base_function'
+require 'intacct_ruby/functions/locations/base_function'
 
 module IntacctRuby
   module Functions

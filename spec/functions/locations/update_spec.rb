@@ -1,8 +1,8 @@
-require 'intacct_ruby/functions/update_location'
+require 'intacct_ruby/functions/locations/update'
 
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
-require 'functions/location_function_examples'
+require 'functions/locations/function_examples'
 require 'functions/update_function_examples'
 
 describe IntacctRuby::Functions::UpdateLocation do

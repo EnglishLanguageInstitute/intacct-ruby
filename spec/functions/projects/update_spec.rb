@@ -1,8 +1,8 @@
-require 'intacct_ruby/functions/update_project'
+require 'intacct_ruby/functions/projects/update'
 
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
-require 'functions/project_function_examples'
+require 'functions/projects/function_examples'
 require 'functions/update_function_examples'
 
 describe IntacctRuby::Functions::UpdateProject do

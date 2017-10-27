@@ -1,6 +1,6 @@
-require 'intacct_ruby/functions/create_project'
+require 'intacct_ruby/functions/projects/create'
 
-require 'functions/project_function_examples'
+require 'functions/projects/function_examples'
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
 require 'functions/creation_function_examples'

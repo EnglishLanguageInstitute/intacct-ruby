@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/project_base_function'
+require 'intacct_ruby/functions/projects/base_function'
 
 module IntacctRuby
   module Functions

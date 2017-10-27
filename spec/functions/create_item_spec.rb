@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/create_item'
+require 'intacct_ruby/functions/items/create'
 
 require 'functions/item_function_examples'
 require 'functions/function_spec_helper'

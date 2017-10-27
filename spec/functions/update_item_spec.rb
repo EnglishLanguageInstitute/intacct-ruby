@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/update_item'
+require 'intacct_ruby/functions/items/update'
 
 require 'functions/item_function_examples'
 require 'functions/function_spec_helper'

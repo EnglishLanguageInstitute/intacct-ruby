@@ -21,7 +21,7 @@ module IntacctRuby
           param_value = @attrs[param_name]
           xml.tag!(param_name) { xml << param_value } if param_value
         end
-
+        xml << custom_field_params(@attrs[:customfields]) if @attrs[:customfields]
         xml.target!
       end
     end

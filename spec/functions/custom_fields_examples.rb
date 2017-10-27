@@ -8,6 +8,7 @@ shared_examples 'a custom fields function' do |function_xml, attributes|
   let(:custom_fields_path) { "#{base_path}/customfields/customfield" }
 
   it 'contains expected customfield params' do
+    expect(function_xml.xpath(custom_fields_path).length).to be > 0
     function_xml.xpath(custom_fields_path).each do |field|
       field_key = field.xpath('customfieldname').text
       field_value = field.xpath('customfieldvalue').text

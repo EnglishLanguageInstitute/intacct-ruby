@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/account_base_function'
+require 'intacct_ruby/functions/accounts/base_function'
 
 module IntacctRuby
   module Functions

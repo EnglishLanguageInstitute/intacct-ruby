@@ -1,8 +1,8 @@
-require 'intacct_ruby/functions/update_account'
+require 'intacct_ruby/functions/accounts/update'
 
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
-require 'functions/account_function_examples'
+require 'functions/accounts/function_examples'
 require 'functions/update_function_examples'
 
 describe IntacctRuby::Functions::UpdateAccount do

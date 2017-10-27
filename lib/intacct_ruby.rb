@@ -6,8 +6,8 @@ require 'intacct_ruby/response'
 
 require 'intacct_ruby/functions/base_function'
 
-require 'intacct_ruby/functions/create_customer'
-require 'intacct_ruby/functions/update_customer'
+#require 'intacct_ruby/functions/create_customer'
+#require 'intacct_ruby/functions/update_customer'
 
 require 'intacct_ruby/functions/create_project'
 require 'intacct_ruby/functions/update_project'
@@ -27,3 +27,4 @@ require 'intacct_ruby/functions/create_statgltransaction'
 
 require 'intacct_ruby/functions/accounts'
 require 'intacct_ruby/functions/employees'
+require 'intacct_ruby/functions/customers'

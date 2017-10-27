@@ -1,6 +1,6 @@
-require 'intacct_ruby/functions/create_customer'
+require 'intacct_ruby/functions/customers/create'
 
-require 'functions/customer_function_examples'
+require 'functions/customers/function_examples'
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
 require 'functions/creation_function_examples'

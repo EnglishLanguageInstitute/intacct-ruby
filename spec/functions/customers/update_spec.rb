@@ -1,6 +1,6 @@
-require 'intacct_ruby/functions/update_customer'
+require 'intacct_ruby/functions/customers/update'
 
-require 'functions/customer_function_examples'
+require 'functions/customers/function_examples'
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
 require 'functions/update_function_examples'

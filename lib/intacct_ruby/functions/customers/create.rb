@@ -1,5 +1,5 @@
 require 'intacct_ruby/helpers/contacts_helper'
-require 'intacct_ruby/functions/customer_base_function'
+require 'intacct_ruby/functions/customers/base_function'
 
 module IntacctRuby
   module Functions

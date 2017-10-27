@@ -1,4 +1,4 @@
-require 'intacct_ruby/functions/gltransaction_base_function'
+require 'intacct_ruby/functions/gltransactions/base_function'
 require 'intacct_ruby/helpers/date_helper'
 
 module IntacctRuby

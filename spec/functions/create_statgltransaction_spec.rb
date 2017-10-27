@@ -2,7 +2,7 @@ require 'intacct_ruby/functions/create_statgltransaction'
 
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
-require 'functions/gltransaction_function_examples'
+require 'functions/gltransactions/function_examples'
 
 describe IntacctRuby::Functions::CreateStatGLTransaction do
   function_attributes = generate_transaction_attributes(:statgl)

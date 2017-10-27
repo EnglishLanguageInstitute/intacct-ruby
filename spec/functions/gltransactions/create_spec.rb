@@ -1,8 +1,8 @@
-require 'intacct_ruby/functions/create_gltransaction'
+require 'intacct_ruby/functions/gltransactions/create'
 
 require 'functions/function_spec_helper'
 require 'functions/function_examples'
-require 'functions/gltransaction_function_examples'
+require 'functions/gltransactions/function_examples'
 
 describe IntacctRuby::Functions::CreateGLTransaction do
   function_attributes = generate_transaction_attributes(:gl)
